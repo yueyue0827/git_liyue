@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发现</title>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_1344717_ju9kmmlmvxb.css">
+	<link rel="stylesheet" href="../css/find.css">
+	 <script>
+ 	// window.onload = function(event){
+ 		var arrow=document.getElementsByClassName("arrow");
+ 		var content=document.getElementsByClassName("content_inner");
+ 		// var left=content.style.marginleft;
+ 		arrow.onclick=function(){
+            clearInterval(timer);
+            var timer=setInterval(function(){
+            	var oldvalue=content.offsetLeft;
+            	var newvalue=oldvalue-650;
+            	if(newvalue<5250){
+            		newvalue=0;
+            	}
+                content.style.marginLeft=newvalue+"px";
+            },2000)
+ 		}
+ 	// }
+ </script>
+</head>
+<body>
+<div class="total">
+<!-- 搜索 -->
+	<div class="top clearfix">
+		<div class="i"><i class="iconfont icon-sousuo"></i></div>
+		<div >
+		<input type="text" placeholder="挪威的森林">
+		</div>
+		<div>书城</div>
+	</div>
+<!-- 中间内容 -->
+	<div class="content">
+		<div class="content_inner">
+			<div class="one">
+				<p>欢 迎 回 	来</p>
+				<h3>送你一张无限卡</h3>
+				<h3>全场书籍免费读</h3>
+				<div class="br"></div>
+				<div class="one_word">今日还剩496张可免费领取</div>
+				<div class="one_pict">
+					<div class="one_top"><span>20</span> 天无限卡</div>
+                    <div class="one_low">免费领取.20天</div>
+				</div>
+			</div>
+			<div class="two">
+				<div class="two_pict"><img src="../images/find1/qz.png" alt=""></div>
+				<div class="two_middle">
+					<div>
+						<p>全职高手</p>
+					    <p>蝴蝶蓝</p>
+					</div>
+					<div>分享免费领</div>
+				</div>
+				<div class="two_button">
+					<div class="icon"><i class="iconfont icon-leaf"></i></div>
+					<p class="two_word">热血追梦</p>
+					<p><a href="">更多免费好书领不停 ></a></p>
+				</div>
+			</div>
+			<div class="three common">
+				<h2>为你推荐</h2>
+				<p class="p">基于你的阅读历史计算 . 每日更新</p>
+				<div class="three_pict pictures clearfix">
+					<div><img src="../images/find1/three1.png" alt=""></div>
+					<div><img src="../images/find1/three2.png" alt=""></div>
+					<div><img src="../images/find1/three3.png" alt=""></div>
+					<div><img src="../images/find1/three4.png" alt=""></div>
+				</div>
+				<p><a href="">换 一 批</a></p>
+			</div>
+			<div class="four common all">
+			   <div><h1>免费听书馆</h1>
+				<p class="p">第 108 期</p></div>
+
+				<div class="four_pict pictures clearfix">
+					<div><img src="../images/find1/four1.png" alt="">
+					<p>论语</p></div>
+					<div><img src="../images/find1/four2.png" alt="">
+					<p>老梁的四大...</p></div>
+					<div><img src="../images/find1/four3.png" alt="">
+					<p>蒂姆.库克..</p></div>
+					<div><img src="../images/find1/four4.png" alt="">
+					<p>道士不好惹</p></div>
+					<div><img src="../images/find1/four5.png" alt="">
+					<p>你坚持的原..</p></div>
+					<div><img src="../images/find1/four6.png" alt="">
+					<p>先秦诸子</p></div>
+				</div>
+				<div>免 费 领 取</div>
+			</div>
+			<div class="five common all">
+			<div><h1>本周推荐</h1>
+				<p class="p"><a href="">送你一天无限卡 . 全场书籍免费读></a></p></div>
+				<div><img src="../images/find1/five1.png" alt=""></div>
+			</div>
+			<div class="six one">
+				<p>V O L.8 6</p>
+				<h1>S E N S E</h1>
+				<div class="br"></div>
+				<div class="one_word">
+					<p>梦想不是梦，是不会遗忘的青春与汗水</p>
+					<p>赠你佳作致敬每个不曾辜负的夜晚</p>
+				</div>
+				<div class="six_pict">
+				<img src="../images/find1/six1.png" alt="">
+			   </div>
+			</div>
+			<div class="seven">
+				<div class="seven_pict">
+					<img src="../images/find1/seven1.png" alt="">
+				</div>
+				<h1>我想做一个能在你的...</h1>
+				<p>贾平凹等</p>
+				<div class="yue"><img src="../images/find1/seven2.png" alt=""></div>
+				<p><a href="">李悦在读 <i class="iconfont icon-arrow"></i></a></p>
+				<div><i class="iconfont icon-aixin"></i></div>
+		    </div>
+		    	<div class="one">
+				<p>欢 迎 回 	来</p>
+				<h3>送你一张无限卡</h3>
+				<h3>全场书籍免费读</h3>
+				<div class="br"></div>
+				<div class="one_word">今日还剩496张可免费领取</div>
+				<div class="one_pict">
+					<div class="one_top"><span>20</span> 天无限卡</div>
+                    <div class="one_low">免费领取.20天</div>
+				</div>
+			</div>
+	    </div>
+    </div>
+    <div class="arrow"><i class="iconfont icon-arrow"></i></div>
+</div>
+</body>
+</html>

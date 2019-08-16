@@ -1,0 +1,168 @@
+html{
+	font: normal 16px 'Microsoft YaHei' serif;
+}
+body{
+	margin: 0;
+}
+html,body,.body{
+	width: 100%;
+	height: 100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #989898;
+}
+a:visited{
+	color: #989898;
+}
+a:hover{
+	color: #2590EE;
+}
+a:active{
+	color:#2590EE;
+}
+p{
+	margin: 0;
+}
+
+/*整体布局开始*/
+div.body{
+	max-width: 750px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+/*整体布局结束*/
+
+/*顶端标题开始*/
+.title{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bolder;
+	line-height: 80px;
+	background-color: #fff;
+	position: relative;
+
+}
+.title>div.edit{
+	height: 100%;
+	width: 12%;
+	padding-left: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color:#70767F;
+}
+/*顶端标题结束*/
+
+
+/*内容部分开始*/
+.content{
+	width: 100%;
+	flex: 1 1 0;
+	overflow: auto;
+}
+/*搜索框开始*/
+.search{
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #fff;
+}
+.search>.search_box{
+	height: 100%;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: flex;
+}
+.search>.search_box>.search_icon{
+	height: 100%;
+	flex-basis: 50px;
+	background-color: #F7F8F9;
+	border-radius: 20px 0 0 20px;
+	text-align: center;
+}
+.search>.search_box>.search_icon>i{
+	font-size: 22px;
+	line-height: 40px;
+	color: #8A919A;
+}
+.search>.search_box>input{
+	height: 100%;
+	flex:1;
+	font-size: 16px;
+	padding: 0;
+	border: 0;
+	background-color: #F7F8F9;
+	border-right: 1px solid #D3D4D5;
+	
+}
+.search>.search_box>.record{
+	height: 100%;
+	flex-basis: 100px;
+	background-color: #F7F8F9;
+	color: #AEB1B7;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0 20px 20px 0;
+}
+/*搜索框结束*/
+
+/*图书主体开始*/
+
+.book>ul{
+	width: 100%;
+	height: 420px;
+	box-sizing: border-box;
+	padding: 30px;
+	display: flex;
+}
+.book>ul>li{
+	height: 100%;
+	flex: 1;
+	margin-right: 30px;
+}
+.book>ul>li:last-child{
+	margin-right: 0;
+
+}
+.book>ul>li>div{
+	box-sizing: border-box;
+	border:1px solid #EFEFEF;
+	height: 80%;
+	
+}
+.book>ul>li>p{
+	box-sizing: border-box;
+	padding: 10px;
+	padding-left: 15px;
+	width: 100%;
+	height: 20%;
+	font-size: 19px;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+.book>ul>li>div.none{
+	text-align: center;
+	line-height: 280px;
+}
+.book>ul>li>div.none>i{
+	color: #D6D8DA;
+	font-size: 100px;
+}
+/*图书主体结束*/
+/*内容部分开始*/

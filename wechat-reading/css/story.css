@@ -1,0 +1,172 @@
+body,html{
+	width: 100%;
+	margin: 0;
+}
+.box{
+	max-width: 750px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color : #fff !important;
+
+}
+
+a{
+	text-decoration: none;
+}
+.box{
+	max-width: 750px;
+	margin: 0 auto;
+	background-color: #ECEDEF;
+}
+.head{
+	max-width: 750px;
+	height: 80px;
+	background-color: #ffffff;
+	display: flex;
+}
+.head>div{
+	flex: 1 0 0;
+	/*border-right: 1px solid #ccc;*/
+	text-align: center;
+	font-size: 24px;
+	line-height: 80px;
+}
+.head>div:nth-child(2){
+	color: #6076C9;
+}
+.head>div:nth-child(3) a{
+	color: #9A9A9B;
+}
+.head>div:nth-child(4){
+	position: relative;
+}
+.head>div:nth-child(4)>a{
+	position: absolute;
+}
+.head>div:nth-child(4)>a>i{
+	font-size: 34px;
+	font-weight: bold;
+	color: #636267;
+}
+/*话题*/
+.wrapper{
+	max-width: 720px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ededed;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.wrapper .left{
+	float: left;
+	width: 80%;
+	height: 80px;
+	/*background-color: #ededed;*/
+}
+.wrapper .left a{
+	font-size: 20px;
+	color: #171e28;
+	font-weight: bold;
+}
+.wrapper .right{
+	margin-left: 81%;
+	width: 10%;
+	height: 80px;
+}
+.wrapper .right img{
+	width: 5em;
+	height: 80px;
+}
+.wrapper .bottom {
+	height: 40px;
+}
+
+.wrapper .bottom span{
+	font-size: 14px;
+	color: #8a8f92;
+	line-height: 40px;
+}
+.wrapper .bottom i{
+	margin-left: 85%;
+	font-size:1.5em;
+	line-height: 40px;
+	position: relative;
+	bottom: 35px;
+	color: #8a8f92;
+}
+#span2{
+	position: relative;
+	bottom: 35px;
+}
+/*话题结束*/
+/*福利*/
+.welfare{
+	max-width: 720px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ededed;	
+}
+.welfare .top{
+	width: 100%;
+	height: 300px;
+
+}
+.welfare .top img{
+	width: 95%;
+	height: 300px;
+}
+.welfare .bottom{
+	/*margin-top: 15px;*/
+}
+.welfare .bottom span{
+	font-size: 14px;
+	color: #715023;
+	line-height: 40px;
+}
+.welfare .bottom i{
+	margin-left: 85%;
+	font-size:1.5em;
+	line-height: 40px;
+	position: relative;
+	bottom: 35px;
+	color: #715023;
+}
+/*福利结束*/
+/*小视频*/
+.vedio{
+	max-width: 720px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-bottom: 1px solid #ededed;
+}
+.vedio .top{
+	width: 100%;
+	height: 60px;
+}
+.vedio .middle{
+	width: 100%;
+	height: 300px;
+}
+.vedio .top a{
+	font-size: 1.3em;
+	color: #171e28;
+	font-weight: bold; 
+}
+.vedio .middle img{
+	width: 90%;
+	height: 300px;
+}
+.vedio .bottom span{
+	font-size: 14px;
+	color: #8a8f92;
+	line-height: 40px;
+}
+.vedio .bottom i{
+	margin-left: 85%;
+	font-size:1.5em;
+	line-height: 40px;
+	position: relative;
+	bottom: 35px;
+	color: #8a8f92;
+}
+/*小视频结束*/
